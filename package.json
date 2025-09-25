@@ -1,0 +1,29 @@
+{
+  "name": "card-cutter-nsda",
+  "version": "0.1.0",
+  "description": "Chrome extension for cutting NSDA debate cards from web articles",
+  "main": "background.js",
+  "scripts": {
+    "build": "echo 'No build step needed - pure JavaScript extension'",
+    "test": "echo 'No tests yet'",
+    "lint": "echo 'No linter configured yet'"
+  },
+  "keywords": [
+    "debate",
+    "nsda",
+    "chrome-extension",
+    "cards",
+    "evidence",
+    "citations"
+  ],
+  "author": "Card Cutter Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/cardcutter"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/cardcutter/issues"
+  },
+  "homepage": "https://github.com/your-username/cardcutter#readme"
+}

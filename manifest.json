@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Card Cutter – NSDA",
+  "version": "0.1.0",
+  "description": "Cut judge-ready NSDA cards from any article selection.",
+  "permissions": ["activeTab", "contextMenus", "storage", "scripting", "downloads"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
