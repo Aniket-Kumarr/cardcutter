@@ -1,6 +1,6 @@
 # Card Cutter – NSDA
 
-A Chrome extension that turns any article selection into a judge-ready NSDA debate card with proper formatting, citations, and evidence highlighting.
+A that turns any article selection into a judge-ready NSDA debate card with proper formatting, citations, and evidence highlighting.
 
 ## Features
 
